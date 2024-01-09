@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:instagram_clone/dimensions/dimensions.dart';
+import 'package:instagram_clone/dimensions/global_variables.dart';
 
 class RespossiveLayout extends StatelessWidget {
   final Widget webscreenlayout;

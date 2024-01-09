@@ -37,7 +37,7 @@ class _LoginscreenState extends State<Loginscreen> {
     setState(() {
       _isloading = true;
     });
-    String res = await Authmethod().loginuser(
+    String res = await AuthMethods().loginUser(
         email: _emailcontroller.text, password: _passwordcontroller.text);
 
     if (res == "seccess") {
